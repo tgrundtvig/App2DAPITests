@@ -58,7 +58,7 @@ public class App1 implements App2D, MouseListener
             canvas.setColor(cf.getGreen());
             canvas.drawFilledPolygon(arrow);
         }
-        canvas.setColor(cf.getRed());
+        canvas.setColor(cf.newColor(1, 0, 0, 0.5f));
         canvas.drawPoint(geo.newPoint2D(400,400), 20);
     }
 
@@ -90,6 +90,12 @@ public class App1 implements App2D, MouseListener
     public void onMouseWheel(MouseWheelEvent e)
     {
         
+    }
+
+    @Override
+    public boolean showMouseCursor()
+    {
+        return false;
     }
     
 }
