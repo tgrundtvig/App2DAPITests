@@ -34,7 +34,7 @@ public class App1 implements App2D, MouseListener
         bld.addPoint(geo.newPoint2D(110, 10));
         bld.addPoint(geo.newPoint2D(60, 60));
         p = bld.build();
-        arrow = null; //geo.createArrow(geo.newPoint2D(60, 60), geo.newPoint2D(400, 200), 10);
+        arrow = null;//geo.createArrow(geo.newPoint2D(60, 60), geo.newPoint2D(400, 200), 10);
         cf = device.getScreen().getColorFactory();
         return true;
     }
