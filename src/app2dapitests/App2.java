@@ -77,7 +77,7 @@ public class App2 implements App2D, MouseListener
         tmp.addPoint(roomPoints[9]);
         tmp.addPoint(roomPoints[8]);
         tmp.addPoint(roomPoints[2]);
-        roomPolygons[0] = tmp.build();
+        roomPolygons[0] = tmp.buildPolygon();
         //NE
         tmp = g2d.getPolygonBuilder();
         tmp.addPoint(roomPoints[5]);
@@ -85,14 +85,14 @@ public class App2 implements App2D, MouseListener
         tmp.addPoint(roomPoints[7]);
         tmp.addPoint(roomPoints[8]);
         tmp.addPoint(roomPoints[9]);
-        roomPolygons[1] = tmp.build();
+        roomPolygons[1] = tmp.buildPolygon();
         //E
         tmp = g2d.getPolygonBuilder();
         tmp.addPoint(roomPoints[6]);
         tmp.addPoint(roomPoints[14]);
         tmp.addPoint(roomPoints[13]);
         tmp.addPoint(roomPoints[7]);
-        roomPolygons[2] = tmp.build();
+        roomPolygons[2] = tmp.buildPolygon();
         //SE
         tmp = g2d.getPolygonBuilder();
         tmp.addPoint(roomPoints[10]);
@@ -100,14 +100,14 @@ public class App2 implements App2D, MouseListener
         tmp.addPoint(roomPoints[12]);
         tmp.addPoint(roomPoints[13]);
         tmp.addPoint(roomPoints[14]);
-        roomPolygons[3] = tmp.build();
+        roomPolygons[3] = tmp.buildPolygon();
         //S
         tmp = g2d.getPolygonBuilder();
         tmp.addPoint(roomPoints[11]);
         tmp.addPoint(roomPoints[19]);
         tmp.addPoint(roomPoints[18]);
         tmp.addPoint(roomPoints[12]);
-        roomPolygons[4] = tmp.build();
+        roomPolygons[4] = tmp.buildPolygon();
         //SW
         tmp = g2d.getPolygonBuilder();
         tmp.addPoint(roomPoints[15]);
@@ -115,14 +115,14 @@ public class App2 implements App2D, MouseListener
         tmp.addPoint(roomPoints[17]);
         tmp.addPoint(roomPoints[18]);
         tmp.addPoint(roomPoints[19]);
-        roomPolygons[5] = tmp.build();
+        roomPolygons[5] = tmp.buildPolygon();
         //W
         tmp = g2d.getPolygonBuilder();
         tmp.addPoint(roomPoints[4]);
         tmp.addPoint(roomPoints[3]);
         tmp.addPoint(roomPoints[17]);
         tmp.addPoint(roomPoints[16]);
-        roomPolygons[6] = tmp.build();
+        roomPolygons[6] = tmp.buildPolygon();
         //NW
         tmp = g2d.getPolygonBuilder();
         tmp.addPoint(roomPoints[0]);
@@ -130,7 +130,7 @@ public class App2 implements App2D, MouseListener
         tmp.addPoint(roomPoints[2]);
         tmp.addPoint(roomPoints[3]);
         tmp.addPoint(roomPoints[4]);
-        roomPolygons[7] = tmp.build();
+        roomPolygons[7] = tmp.buildPolygon();
         
         
         
